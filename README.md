@@ -1,5 +1,5 @@
 # solarized_flood
-A colorscheme for lightline/vim-airline. Lets make the solarized flood fill your Vim.
+A colorscheme for vim-airline/lightline. Lets make the solarized flood fill your Vim.
 
 ### Overall
 ![screenshot](./screenshots/overall.png)
@@ -20,17 +20,17 @@ A colorscheme for lightline/vim-airline. Lets make the solarized flood fill your
 
 The following example it based on [vim-plug](https://github.com/junegunn/vim-plug).
 
-The `master` branch is for [lightline](https://github.com/itchyny/lightline.vim).
+The `master` branch is for [vim-airline](https://github.com/vim-airline/vim-airline).
 
 ```vim
 Plug 'Neur1n/solarized_flood'
 ```
 
-To install this colorscheme for [vim-airline](https://github.com/vim-airline/vim-airline),
+To install this colorscheme for [lightline](https://github.com/itchyny/lightline.vim),
 one may use:
 
 ```vim
-Plug 'Neur1n/solarized_flood', {'branch': 'vim-airline'}
+Plug 'Neur1n/solarized_flood', {'branch': 'lightline'}
 ```
 
 ## Configuration

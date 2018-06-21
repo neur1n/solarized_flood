@@ -1,9 +1,14 @@
 # solarized_flood
 A colorscheme for lightline/vim-airline. Lets make the solarized flood fill your Vim.
 
+### Overall
 ![screenshot](./screenshots/overall.png)
 
-![screenshot](./screenshots/modes.png)
+### Statuslines (default style)
+![screenshot](./screenshots/modes_no_dam.png)
+
+### Statuslines (alternative style)
+![screenshot](./screenshots/modes_dam.png)
 
 ## Table Of Contents
 
@@ -41,7 +46,7 @@ let g:solarized_flood_nv_mode_style = 'NONE'
 
 More styles can be found with ':help attr-list'.
 
-##### `g:solarized_flood_dam`
+##### `g:solarized_flood_dam` (currently only available in vim-airline)
 Now lets bulid a dam to stop the flood! The default highlighting for 'modified'
 mode could be inconspicuous that one should actually move an eye on the
 statusline to tell if a buffer is modified. Enabling the 'dam' will inverse the
@@ -54,4 +59,4 @@ let g:solarized_flood_dam = 1 (default: 0)
 
 ## License
 
-Released under the [MIT License](LICENSE)
+[MIT License](LICENSE). Copyright (c) 2018 Jihang Li.

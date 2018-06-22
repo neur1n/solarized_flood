@@ -10,7 +10,10 @@ A colorscheme for vim-airline/lightline. Lets make the solarized flood fill your
 ### Statuslines (alternative style)
 ![screenshot](./screenshots/modes_dam.png)
 
-## Table Of Contents
+### Readonly Indicator Accents
+![screenshot](./screenshots/readonly_accents.png)
+
+## Table of Contents
 
 - [Installation](#installation)
 - [Configuration](#configuration)

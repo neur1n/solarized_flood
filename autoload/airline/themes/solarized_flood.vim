@@ -83,6 +83,10 @@ let g:airline#themes#solarized_flood#palette.normal =
       \                                   s:airline_b_normal,
       \                                   s:airline_c_normal)
 
+let g:airline#themes#solarized_flood#palette.normal['airline_y'] =
+      \ [s:base00['hex'], s:base03['hex'], s:base00['term'], s:base03['term'],
+      \  s:style]
+
 let g:airline#themes#solarized_flood#palette.normal['airline_z'] =
       \ [s:green['hex'], s:base03['hex'], s:green['term'], s:base03['term'],
       \  s:style]
@@ -116,6 +120,10 @@ let g:airline#themes#solarized_flood#palette.insert =
       \ airline#themes#generate_color_map(s:airline_a_insert,
       \                                   s:airline_b_insert,
       \                                   s:airline_c_insert)
+
+let g:airline#themes#solarized_flood#palette.insert['airline_y'] =
+      \ [s:base00['hex'], s:base03['hex'], s:base00['term'], s:base03['term'],
+      \  s:style]
 
 let g:airline#themes#solarized_flood#palette.insert['airline_z'] =
       \ [s:cyan['hex'], s:base03['hex'], s:cyan['term'], s:base03['term'],
@@ -155,6 +163,10 @@ let g:airline#themes#solarized_flood#palette.visual =
       \                                   s:airline_b_visual,
       \                                   s:airline_c_visual)
 
+let g:airline#themes#solarized_flood#palette.visual['airline_y'] =
+      \ [s:base00['hex'], s:base03['hex'], s:base00['term'], s:base03['term'],
+      \  s:style]
+
 let g:airline#themes#solarized_flood#palette.visual['airline_z'] =
       \ [s:yellow['hex'], s:base03['hex'], s:yellow['term'], s:base03['term'],
       \  'NONE']
@@ -188,6 +200,10 @@ let g:airline#themes#solarized_flood#palette.replace =
       \ airline#themes#generate_color_map(s:airline_a_replace,
       \                                   s:airline_b_replace,
       \                                   s:airline_c_replace)
+
+let g:airline#themes#solarized_flood#palette.replace['airline_y'] =
+      \ [s:base00['hex'], s:base03['hex'], s:base00['term'], s:base03['term'],
+      \  s:style]
 
 let g:airline#themes#solarized_flood#palette.replace['airline_z'] =
       \ [s:violet['hex'], s:base03['hex'], s:violet['term'], s:base03['term'],

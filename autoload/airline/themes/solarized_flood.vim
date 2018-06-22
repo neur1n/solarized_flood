@@ -1,19 +1,19 @@
 " Name: Solarized Flood
-" Changed: June 19 2018
-" Maintainer: https://github.com/Neur1n
+" Changed: June 22 2018, UTC+8
+" Website: https://github.com/Neur1n/solarized_flood
 " Description:
 "   A vim-airline theme made based on and tested with the Solarized colorscheme
 "   (https://github.com/frankier/neovim-colors-solarized-truecolor-only) in
 "   Windows 10 OS and GVim 8.1.
 "
-"   This script is based on the 'dark' theme. The 'inactive' and 'ctrlp' parts
-"   were not changed.
+"   This script is based on the "dark" theme. The "inactive" mode were not
+"   changed.
 "
-"   It is call 'flood' since the statusline and the tabline will be highlighted
-"   with the 'base03' color in Solarized (dark). If you use the dark Solarized
-"   colorscheme for Vim and, in Windows, set 'Personalization-Colors-Choose
-"   your color - Custom color' to be '#002B36' (*), then most parts of the GVim
-"   window will be 'flooded' with the color.
+"   It is call "flood" since the statusline and the tabline will be highlighted
+"   with the "base03" color in Solarized (dark). If you use the dark Solarized
+"   colorscheme for Vim and, in Windows, set "Personalization-Colors-Choose
+"   your color - Custom color" to be "#002B36" (*), then most parts of the GVim
+"   window will be "flooded" with the color.
 "   NOTE: This will make some components of the airline less distinguishable
 "         from the others. If anyone has better ideas, I will be happy to take
 "         a conversation with you. :)
@@ -25,10 +25,10 @@
 scriptencoding utf-8
 
 " The following color definitions:
-"   'hex':  originated from official solarized (dark) colors
-"   'term': calculated by 'x256' package of Python
-"   '*':    'term' value that is different with solarized official definition
-"   '#':    picked manually
+"   "hex":  originated from official solarized (dark) colors
+"   "term": calculated by "x256" package of Python
+"   "*":    "term" value that is different with solarized official definition
+"   "#":    picked manually
 let s:base03  = {'hex': '#002b36', 'term': 234}  "   0,  43,  54
 let s:base02  = {'hex': '#073642', 'term': 235}  "   7,  54,  66
 let s:base01  = {'hex': '#586e75', 'term': 242}  "  88, 110, 117 *

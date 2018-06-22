@@ -18,7 +18,7 @@ A colorscheme for vim-airline/lightline. Lets make the solarized flood fill your
 
 ## Installation
 
-The following example it based on [vim-plug](https://github.com/junegunn/vim-plug).
+The following example is based on [vim-plug](https://github.com/junegunn/vim-plug).
 
 The `master` branch is for [vim-airline](https://github.com/vim-airline/vim-airline).
 

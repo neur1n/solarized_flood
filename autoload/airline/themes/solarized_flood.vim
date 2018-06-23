@@ -123,7 +123,7 @@ let g:airline#themes#solarized_flood#palette.insert =
 
 let g:airline#themes#solarized_flood#palette.insert['airline_y'] =
       \ [s:base00['hex'], s:base03['hex'], s:base00['term'], s:base03['term'],
-      \  s:style]
+      \  'bold']
 
 let g:airline#themes#solarized_flood#palette.insert['airline_z'] =
       \ [s:cyan['hex'], s:base03['hex'], s:cyan['term'], s:base03['term'],
@@ -169,7 +169,7 @@ let g:airline#themes#solarized_flood#palette.visual['airline_y'] =
 
 let g:airline#themes#solarized_flood#palette.visual['airline_z'] =
       \ [s:yellow['hex'], s:base03['hex'], s:yellow['term'], s:base03['term'],
-      \  'NONE']
+      \  s:style]
 
 " *****************************************************************************
 "                                                                  Replace Mode
@@ -203,7 +203,7 @@ let g:airline#themes#solarized_flood#palette.replace =
 
 let g:airline#themes#solarized_flood#palette.replace['airline_y'] =
       \ [s:base00['hex'], s:base03['hex'], s:base00['term'], s:base03['term'],
-      \  s:style]
+      \  'bold']
 
 let g:airline#themes#solarized_flood#palette.replace['airline_z'] =
       \ [s:violet['hex'], s:base03['hex'], s:violet['term'], s:base03['term'],

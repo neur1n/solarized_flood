@@ -1,5 +1,16 @@
 # solarized_flood
-A colorscheme for vim-airline/lightline. Lets make the solarized flood fill your Vim.
+A colorscheme for vim-airline/lightline. Lets make the solarized flood fill your editor.
+
+## Table of Contents
+
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [License](#license)
+
+## Screenshots
+
+The following screenshots are from vim-airline. The colorscheme for lightline is not as fancy as that in vim-airline since API is different. 
 
 ### Overall
 ![screenshot](./screenshots/overall.png)
@@ -13,27 +24,12 @@ A colorscheme for vim-airline/lightline. Lets make the solarized flood fill your
 ### Readonly Indicator Accents
 ![screenshot](./screenshots/readonly_accents.png)
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [License](#license)
-
 ## Installation
 
-The following example is based on [vim-plug](https://github.com/junegunn/vim-plug).
-
-The `master` branch is for [vim-airline](https://github.com/vim-airline/vim-airline).
+This repo contains a theme/colorscheme for both [vim-airline](https://github.com/vim-airline/vim-airline) and [lightline](https://github.com/itchyny/lightline.vim). To install (with [vim-plug](https://github.com/junegunn/vim-plug)):
 
 ```vim
 Plug 'Neur1n/solarized_flood'
-```
-
-To install this colorscheme for [lightline](https://github.com/itchyny/lightline.vim),
-one may use:
-
-```vim
-Plug 'Neur1n/solarized_flood', {'branch': 'lightline'}
 ```
 
 ## Configuration

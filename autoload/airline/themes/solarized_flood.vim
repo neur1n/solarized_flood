@@ -1,5 +1,5 @@
 " Name: Solarized Flood
-" Changed: June 22 2018, UTC+8
+" Changed: August 07 2018, UTC+8
 " Website: https://github.com/Neur1n/solarized_flood
 " Description:
 "   A vim-airline theme made based on and tested with the Solarized colorscheme
@@ -172,6 +172,44 @@ let g:airline#themes#solarized_flood#palette.visual['airline_z'] =
       \  s:style]
 
 " *****************************************************************************
+"                                                                  Command Mode
+" *****************************************************************************
+let s:airline_a_commandline = [s:base03['hex'],  s:orange['hex'],
+                             \ s:base03['term'], s:orange['term'], s:style]
+
+let s:airline_c_commandline = [s:red['hex'],  s:base03['hex'],
+                             \ s:red['term'], s:base03['term'], s:style]
+
+if get(g:, 'solarized_flood_dam', 0)
+    let s:airline_b_commandline = [s:base2['hex'],  s:red['hex'],
+                                 \ s:base2['term'], s:red['term'], s:style]
+
+    let g:airline#themes#solarized_flood#palette.commandline_modified = {
+          \ 'airline_c': [s:base03['hex'],  s:red['hex'],
+          \               s:base03['term'], s:red['term'], s:style]}
+else
+    let s:airline_b_commandline = [s:base2['hex'],  s:base03['hex'],
+                                 \ s:base2['term'], s:base03['term'], s:style]
+
+    let g:airline#themes#solarized_flood#palette.commandline_modified = {
+          \ 'airline_c': [s:magenta['hex'],  s:base03['hex'],
+          \               s:magenta['term'], s:base03['term'], s:style]}
+endif
+
+let g:airline#themes#solarized_flood#palette.commandline =
+      \ airline#themes#generate_color_map(s:airline_a_commandline,
+      \                                   s:airline_b_commandline,
+      \                                   s:airline_c_commandline)
+
+let g:airline#themes#solarized_flood#palette.commandline['airline_y'] =
+      \ [s:base00['hex'], s:base03['hex'], s:base00['term'], s:base03['term'],
+      \  s:style]
+
+let g:airline#themes#solarized_flood#palette.commandline['airline_z'] =
+      \ [s:orange['hex'], s:base03['hex'], s:orange['term'], s:base03['term'],
+      \  s:style]
+
+" *****************************************************************************
 "                                                                  Replace Mode
 " *****************************************************************************
 let s:airline_a_replace = [s:base03['hex'] , s:violet['hex'],
@@ -255,6 +293,10 @@ let g:airline#themes#solarized_flood#palette.insert_modified.airline_error =
 let g:airline#themes#solarized_flood#palette.visual.airline_error =
     \ g:airline#themes#solarized_flood#palette.normal.airline_error
 let g:airline#themes#solarized_flood#palette.visual_modified.airline_error =
+    \ g:airline#themes#solarized_flood#palette.normal.airline_error
+let g:airline#themes#solarized_flood#palette.commandline.airline_error =
+    \ g:airline#themes#solarized_flood#palette.normal.airline_error
+let g:airline#themes#solarized_flood#palette.commandline_modified.airline_error =
     \ g:airline#themes#solarized_flood#palette.normal.airline_error
 let g:airline#themes#solarized_flood#palette.replace.airline_error =
     \ g:airline#themes#solarized_flood#palette.normal.airline_error
